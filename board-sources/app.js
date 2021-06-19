@@ -1,9 +1,6 @@
 const board = document.querySelector('#board');
 const colors = ['#eb3453', '#34c3eb', '#52eb34', '#e8eb34', '#8634eb', '#4034eb', '#eb3493', '#96eb34'];
 const SQUARES_NUMBER = 500;
-const audioEffects = [
-    '/audio/bass.mp3'
-];
 
 // Отрисовка доски
 for (let i = 0; i < SQUARES_NUMBER; i++) {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="player">
+    <img src="assets/img/Alan-walker-1.jpg" alt="Alan-walker-1" class="player-bg">
+    <article class="song">
+        <header class="song__header">
+            <img class="song__tizer" src="assets/img/Alan-walker-1.jpg" alt="">
+        </header>
+        <footer class="song__info">
+            <div class="song__panel">
+                <button class="btn btn--small play-prev">
+                </button>
+                <button class="btn play">   
+                </button>
+                <button class="btn btn--small play-next">
+                </button>
+            </div>
+            <div class="song__artist">
+                <h1>Alan Walker</h1>&nbsp;-&nbsp;<span> Ignite</span>
+            </div>
+            <div class="flex ai-center">
+                <input class="song__range" type="range" id="progress-bar" min="0" max="233.717551" value="0">
+            </div>
+        </footer>
+    </article>
+    <script src="main.js"></script>
+</body>
+</html>
